@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+.header-active-link {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+.order-effective {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+}
+.order {
+    background-color: #2F303A;
+}
+.header-list-link:hover {
+    color: #2196F3;
+
+}
+.header-list-link {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+}
+.header-active-link {
+    color: #2196F3;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-blue {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+.no-incline {
+    font-style: normal;
+}
+.map {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+.map:hover {
+    color: #2196F3;
+}    
+footer {
+    background-color: #2F303A;
+}
+.contacts:hover {
+    color: #2196F3;
+}
+.order-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+}
+.contacts-footer {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+}
+.contacts-footer:hover {
+    color: #2196F3;
+}
+.skills {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.skills-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.what-to-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+}
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+}
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+}
+.profession-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.projects {
+    cursor: pointer;
+    border: none;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+}
+.projects:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+}
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+.projects-work {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
