@@ -1,14 +1,24 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--text-color);
     margin: 0;
     padding: 0;
+    background-color: var(--main-color);
+}
+:root {
+    --main-color: #FFFFFF;
+    --aktive-color: #2196F3;
+    --contact-color: #757575;
+    --text-color: #212121;
+    --order-color: #2F303A;
+    --logo-color: #000000;
+    --projects-color: #F5F4FA;
 }
 .link {
     text-decoration: none;
 }
 .header-active-link {
-    color: #2196F3;
+    color: var(--aktive-color);
 }
 .list {
     list-style: none;
@@ -18,18 +28,18 @@ body {
     font-size: 44px;
     line-height: calc(60 / 44);
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-color);
     letter-spacing: 0.06em;
 }
 .order {
-    background-color: #2F303A;
+    background-color: var(--order-color);
 }
 .header-list-link:hover {
-    color: #2196F3;
+    color: var(--aktive-color);
 
 }
 .header-list-link {
-    color: #212121;
+    color: var(--text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -38,7 +48,7 @@ body {
     letter-spacing: 0.02em;
 }
 .header-active-link {
-    color: #2196F3;
+    color: var(--aktive-color);
 }
 .logo {
     font-family: 'Raleway';
@@ -46,13 +56,13 @@ body {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color);
 }
 .logo-blue {
-    color: #2196F3;
+    color: var(--aktive-color);
 }
 .contacts {
-    color: #757575;
+    color: var(--contact-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -65,21 +75,22 @@ body {
     text-decoration: none;
     font-size: 14px;
     line-height: calc(24/14);
-    color: #FFFFFF;
+    color: var(--main-color);
     letter-spacing: 0.03em;
 }
 .map:hover {
-    color: #2196F3;
+    color: var(--aktive-color);
 }    
 footer {
-    background-color: #2F303A;
+    background-color: var(--order-color);
 }
 .contacts:hover {
-    color: #2196F3;
+    color: var(--aktive-color);
 }
 .order-button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--aktive-color);
+    color: var(--main-color);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -88,14 +99,14 @@ footer {
     border: none;
 }
 .contacts-footer {
-    color: #757575;
+    color: var(--contact-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
 }
 .contacts-footer:hover {
-    color: #2196F3;
+    color: var(--aktive-color);
 }
 .skills {
     font-weight: 700;
@@ -105,11 +116,10 @@ footer {
     text-transform: uppercase;
 }
 .skills-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--contact-color);
 }
 .what-to-do {
     font-weight: 700;
@@ -122,6 +132,7 @@ footer {
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
+    background-color: var(--projects-color);
 }
 .name-team {
     font-weight: 500;
@@ -134,20 +145,24 @@ footer {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--contact-color);
 }
 .projects {
     cursor: pointer;
     border: none;
-    background-color: #F5F4FA;
+    background-color: var(--projects-color);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
 }
 .projects:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--aktive-color);
+    color: var(--main-color);
     border: none;
 }
 .projects-name {
@@ -160,5 +175,11 @@ footer {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--contact-color);
+}
+.no-blaсk-logo {
+    color: var(--main-color);
+}
+.tetle-text {
+    text-align: center;
 }
